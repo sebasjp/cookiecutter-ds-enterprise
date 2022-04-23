@@ -5,11 +5,12 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pandas
-  - fastparquet
-  - seaborn
-  - boto3
-  - fs
-  - pathlib
-  - pip
-  - pyprojroot
+  - pip:
+    - pandas
+    - fastparquet
+    - scikit-learn
+    - seaborn
+    - boto3
+    - fs
+    - pathlib
+    - pyprojroot
