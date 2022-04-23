@@ -1,0 +1,6 @@
+{
+	"project_name": "Template for Data Sciente Projects",
+	"project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+	"project_description": "Template to create Data Science projects",
+	"project_author_name": "Your name",
+}
